@@ -20,9 +20,9 @@
   </default>
 
   <worldbody>
-    <body name="box" pos="0.5 0 0">
+    <body name="box" pos="0.7 0 0">
       <freejoint/>
-      <geom type="mesh" mesh="stick_holder" pos="0 0 0.01" name="box" condim="3" class="material-iron" friction="1 .03 .003"/>
+      <geom type="mesh" mesh="stick_holder" pos="0 0 0.009" euler="0 3.1415 0" name="box" condim="3" class="material-iron" friction="1 .03 .003"/>
     </body>
     <body mocap="true" name="mocap_target">
       <geom type="mesh" mesh="stick_holder" pos="0 0 0.01" size="0.02 0.02 0.03" rgba="1 0 0 0.2" contype="0" conaffinity="0"/>
